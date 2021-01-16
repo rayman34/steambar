@@ -1,0 +1,1288 @@
+{% extends "homepage/wrapper.html" %}
+
+{% block content %}
+<div class="hello_box" id="hello_box">
+	<div id="hello_world1">
+		<div class="logo_hello logo_hello1"></div>
+		<h2 style="float:right;color: white;margin-right: 11px;">Страница</h2>
+	</div>
+	<div id="hello_world2">
+		<div class="logo_hello logo_hello2"></div>
+		<h2 style="float:left;color: white;"> загружется ...</h2>
+	</div>
+</div>
+<header id="header">
+		<div class="for_logo" id="for_logo">
+			<div class="logo"></div>
+		</div>
+		<div class="anim" id="anim">
+			<div class="gear_anim gear_button2"></div>
+			<div class="gear_anim gear_button3"></div>
+			<div class="gear_anim gear_button4"></div>
+			<div class="gear_anim gear_button5"></div>
+		</div>
+		<div class="gear_button">
+			<input class="basket_case b_case menu" name="someName" type="button" value="Меню" onclick="menu_f()">
+		</div>
+		<div class="gear_button">
+			<input class="basket_case b_case adr" name="someName" type="button" value="Наш адрес" onclick="contact()">
+		</div>
+		<div class="gear_anim gear_button6"></div>
+		<div class="gear_button">
+			<input class="basket_case b_case basc" name="someName" type="button" value="Корзина" onclick="basket_f()">
+		</div>	
+</header>
+<section class="dop_menu" >
+	<div class="chain"></div>
+	<div class="chain2"></div>
+	<div class="b_f"  id="b_f">
+		<div class="dop">
+			<input class="g_button" name="someName" type="button" value="Холодные закуски" onclick="move1('0')">
+			<input class="g_button" name="someName" type="button" value="Горячие закуски" onclick="move1('-99.8')">
+			<input class="g_button" name="someName" type="button" value="Салаты" onclick="move1('-199.5')">
+			<input class="g_button" name="someName" type="button" value="Стейки" onclick="move1('-299.3')">
+			<input class="g_button" name="someName" type="button" value="Гарниры" onclick="move1('-399')">
+			<input class="g_button" name="someName" type="button" value="Напитки" onclick="move1('-498.8')">
+		</div>
+		<div class="dop dop2">
+			<input class="g_button" name="someName" type="button" value="Супы" onclick="move1('-598.5')">
+			<input class="g_button" name="someName" type="button" value="Колбаски" onclick="move1('-698.3')">
+			<input class="g_button" name="someName" type="button" value="Соусы" onclick="move1('-798')">
+			<input class="g_button" name="someName" type="button" value="Бургеры" onclick="move1('-897.8')">
+			<input class="g_button" name="someName" type="button" value="Техасское барбекю" onclick="move1('-997.5')">
+		</div>
+	</div>
+	<div id="contacts">
+		<div class="phone_block"></div>
+		<div class="cont_block cont_adr">
+			<ul>
+				<li>Адрес: Улица апельсиновая</li>
+				<li>Третья дверь направо</li>
+				<li>Стучаться перед входом</li>
+			</ul>
+		</div>
+		<div class="ch_cont ch1"></div>
+		<div class="ch_cont ch2"></div>
+		<div class="ch_cont ch3"></div>
+		<div class="ch_cont ch4"></div>
+		<div class="ch_cont ch5"></div>
+		<div class="cont_block cont_block2">
+			<div class="gear_contact gear_contact1"></div>
+			<div class="gear_contact gear_contact2"></div>
+			<div class="gear_contact gear_contact3"></div>
+			<div class="gear_contact gear_contact4"></div>
+		</div>
+	</div>
+</section>
+<section class="front_face">
+	<div class="left_gears">
+		<div class="g_div">
+			<div  id="gear1"></div>
+			<div  id="gear2"></div>
+			<div  id="gear3"></div>
+			<div  id="gear4"></div>
+			<div  id="gear5"></div>
+		</div>
+		<div class="g_div">
+			<div  id="gear11"></div>
+			<div  id="gear12"></div>
+			<div  id="gear13"></div>
+			<div  id="gear14"></div>
+			<div  id="gear15"></div>
+		</div>
+		<div class="g_div">
+			<div  id="gear31"></div>
+			<div  id="gear32"></div>
+			<div  id="gear33"></div>
+			<div  id="gear34"></div>
+			<div  id="gear35"></div>
+		</div>
+		
+		<div class="g_div">
+			<div  id="gear21"></div>
+			<div  id="gear22"></div>
+			<div  id="gear23"></div>
+			<div  id="gear24"></div>
+			<div  id="gear25"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_l1"></div>
+			<div class="gear_num_l2"></div>
+			<div class="gear_num_l3"></div>
+			<div class="gear_num_l4"></div>
+			<div class="gear_num_l5"></div>
+		</div>
+	</div>
+	<div class="right_gears">
+		<div class="g_div">
+			<div  id="gear6"></div>
+			<div  id="gear7"></div>
+			<div  id="gear8"></div>
+			<div  id="gear9"></div>
+			<div  id="gear10"></div>
+		</div>
+		<div class="g_div">
+			<div  id="gear26"></div>
+			<div  id="gear27"></div>
+			<div  id="gear28"></div>
+			<div  id="gear29"></div>
+			<div  id="gear30"></div>
+		</div>
+		<div class="g_div">
+			<div  id="gear16"></div>
+			<div  id="gear17"></div>
+			<div  id="gear18"></div>
+			<div  id="gear19"></div>
+			<div  id="gear20"></div>
+		</div>
+		<div class="g_div">
+			<div  id="gear36"></div>
+			<div  id="gear37"></div>
+			<div  id="gear38"></div>
+			<div  id="gear39"></div>
+			<div  id="gear40"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+		<div class="g_div">
+			<div class="gear_num_r1"></div>
+			<div class="gear_num_r2"></div>
+			<div class="gear_num_r3"></div>
+			<div class="gear_num_r4"></div>
+			<div class="gear_num_r5"></div>
+		</div>
+	</div>
+	<div class="logo_big"></div>
+	<div class="logo_big right_bor"></div>
+	<div class="logo_big bird"></div>
+	<div class="logo_big helm"></div>
+	<div class="logo_big horse"></div>
+	<div class="logo_big pero"></div>
+	<div class="logo_big ball"></div>
+	<div class="logo_big man"></div>
+	<div class="logo_big cent_gears"></div>
+	<div class="logo_big heart"></div>
+	<div class="logo_big helm2"></div>
+	<div class="logo_big gearsi"></div>
+	<div class="logo_big fly2"></div>
+
+	<div id="box">
+		<!-- 1 -->
+		<div class="cont1">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Холодные закуски.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 2 -->
+		<div class="cont3">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Горячие закуски.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 3 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Салаты.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 4 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Стейки.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 5 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Гарниры.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 6 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Напитки.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 7 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Супы.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 8 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Колбаски.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 9 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Соусы.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 10 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Бургеры.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+		<!-- 11 -->
+		<div class="cont3 cont4">
+			<div class="dotted_border">
+				<div class="steam_border"></div>
+				<div class="food_block">
+					{% include 'homepage/includes/Техасское барбекю.html' %}
+				</div>
+				<div class="steam_border"></div>
+			</div>
+		</div>
+		<div class="cont2">
+			<div class="chain3"></div>
+			<div class="chain3 ch3_top"></div>
+		</div>
+	</div>
+	<section class="bask_section" id="basket_box_id">
+		<div class="basket_block">
+			<div class="gear1"></div>
+			<div class="chain ch_bas"></div>
+			<div class="chain2 ch_bas2"></div>
+			<div class="basket_info">
+				<div class="fly"></div>
+			</div>
+			<div id="send_box">
+				<input class="g_button send_box" id="send" name="someName" type="button" value="Сделать заказ" onclick="rem_send()">
+			</div>	
+			<div class="saldo">
+				<h3>0</h3>
+			</div>
+					
+		</div>
+	</section>
+	<section class="bask_section menu_box_id" id="menu_box_id">
+		<div class="basket_block menu_block">
+			<div class="gear1"></div>
+			<div class="chain ch_bas"></div>
+			<div class="chain2 ch_bas2"></div>
+			<div class="basket_info">
+				<div class="helm_menu"></div>
+					<input class="g_button in_menu" name="someName" type="button" value="Холодные закуски" onclick="move1('0')">
+					<input class="g_button in_menu" name="someName" type="button" value="Горячие закуски" onclick="move1('-100')">
+					<input class="g_button in_menu" name="someName" type="button" value="Салаты" onclick="move1('-200')">
+					<input class="g_button in_menu" name="someName" type="button" value="Стейки" onclick="move1('-299')">
+					<input class="g_button in_menu" name="someName" type="button" value="Гарниры" onclick="move1('-399')">
+					<input class="g_button in_menu" name="someName" type="button" value="Напитки" onclick="move1('-499')">
+					<input class="g_button in_menu" name="someName" type="button" value="Супы" onclick="move1('-598')">
+					<input class="g_button in_menu" name="someName" type="button" value="Колбаски" onclick="move1('-698')">
+					<input class="g_button in_menu" name="someName" type="button" value="Соусы" onclick="move1('-798')">
+					<input class="g_button in_menu" name="someName" type="button" value="Бургеры" onclick="move1('-897')">
+					<input class="g_button in_menu" name="someName" type="button" value="Техасское барбекю" onclick="move1('-997')">
+			</div>
+		</div>
+	</section>
+</section>
+<footer class="foot">
+	<div class="socials">
+		<div class="soc_gear">
+			<a href="#" class="soc_tg"></a>
+		</div>
+		<div class="soc_gear">
+			<a href="#" class="soc_fb"></a>
+		</div>
+		<div class="soc_gear">
+			<a href="#" class="soc_inst"></a>
+		</div>
+	</div>
+	<div class="logo_foot"></div>
+	<div class="dop_foot_cont">
+		<div class="dop_foot">
+			<h4>Steam Bar</h4>
+		</div>
+		<div class="dop_foot">
+			<h4>71 200 00 00</h4>
+		</div>
+		<div class="dop_foot">
+			<h4>info@steam</h4>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	var box = document.getElementById("box");
+	var adr = document.getElementById("contacts");
+	var basket_box = document.getElementById("basket_box_id")
+	var menu_box = document.getElementById("menu_box_id")
+	var gear1 = document.getElementById("gear1");
+	var gear2 = document.getElementById("gear2");
+	var gear3 = document.getElementById("gear3");
+	var gear4 = document.getElementById("gear4");
+	var gear5 = document.getElementById("gear5");
+	var gear6 = document.getElementById("gear6");
+	var gear7 = document.getElementById("gear7");
+	var gear8 = document.getElementById("gear8");
+	var gear9 = document.getElementById("gear9");
+	var gear10 = document.getElementById("gear10");
+	
+	var gear11 = document.getElementById("gear11");
+	var gear12 = document.getElementById("gear12");
+	var gear13 = document.getElementById("gear13");
+	var gear14 = document.getElementById("gear14");
+	var gear15 = document.getElementById("gear15");
+	var gear16 = document.getElementById("gear16");
+	var gear17 = document.getElementById("gear17");
+	var gear18 = document.getElementById("gear18");
+	var gear19 = document.getElementById("gear19");
+	var gear20 = document.getElementById("gear20");
+
+	var gear21 = document.getElementById("gear21");
+	var gear22 = document.getElementById("gear22");
+	var gear23 = document.getElementById("gear23");
+	var gear24 = document.getElementById("gear24");
+	var gear25 = document.getElementById("gear25");
+	var gear26 = document.getElementById("gear26");
+	var gear27 = document.getElementById("gear27");
+	var gear28 = document.getElementById("gear28");
+	var gear29 = document.getElementById("gear29");
+	var gear30 = document.getElementById("gear30");
+	
+	var gear31 = document.getElementById("gear31");
+	var gear32 = document.getElementById("gear32");
+	var gear33 = document.getElementById("gear33");
+	var gear34 = document.getElementById("gear34");
+	var gear35 = document.getElementById("gear35");
+	var gear36 = document.getElementById("gear36");
+	var gear37 = document.getElementById("gear37");
+	var gear38 = document.getElementById("gear38");
+	var gear39 = document.getElementById("gear39");
+	var gear40 = document.getElementById("gear40");
+	const screenWidth = window.screen.width
+	var place = "1";
+	var bas_place = 100;
+	var place_com = "left";
+	var adr_place = 50;
+	var place_com_adr = "left";
+	var place_com_menu = "right";
+	var menu_place = -100;
+	var pos = 0;
+	var old = 0;
+	var start_place = 0;
+	var now_place = 0;
+	var raz = 0;
+	var new_place = 0;
+	var num = 0;
+	var onl_pos1 = 0;
+	var onl_pos2 = 50;
+	var basket = {}
+	var basket_arr = [];
+	var t = setInterval(move, 1,t);
+	var b = setInterval(move_bas, 10,b);
+	var z = setInterval(move_adr, 10,z);
+	var scroll = setInterval(check_scroll, 10,scroll);
+	var s = setInterval(screen_maker, 1000,s);
+	var r = setInterval(move_menu, 10,r);
+	window.onload = function () { 
+		var onl = setInterval(onlo, 10,onl);
+    }
+    function onlo(){
+    	hello_world1 = document.getElementById("hello_world1");
+		hello_world2 = document.getElementById("hello_world2");
+		
+		if(onl_pos2>100){
+			clearInterval(onl);
+			return;
+		}
+		else{
+			onl_pos1-=1;
+			onl_pos2+=1;
+			hello_world1.style.left = onl_pos1+"%";
+			hello_world2.style.left = onl_pos2+"%";
+		}
+    }
+
+	function screen_maker(){
+		if (screenWidth < 1331){
+			var food_gear = document.getElementsByClassName('food_gear');
+			var photo_pos = document.getElementsByClassName('photo_pos');
+			var food_inside = document.getElementsByClassName('food_inside');
+			var price = document.getElementsByClassName('price');
+			var but_box = document.getElementsByClassName('but_box');
+			var info_block = document.getElementsByClassName('info_block');
+			var right_gears = document.getElementsByClassName('right_gears');
+			var footer = document.getElementsByClassName('foot');
+			var basket_block = document.getElementsByClassName('basket_block');
+			var bask_section = document.getElementsByClassName('bask_section');
+			var basket_pos_btn1 = document.getElementsByClassName('basket_pos_btn1');
+			var basket_pos_btn2 = document.getElementsByClassName('basket_pos_btn2');
+			var header = document.getElementById('header');
+			var gear_button = document.getElementsByClassName('gear_button');
+			var front_face = document.getElementsByClassName('front_face');
+			var dop_menu = document.getElementsByClassName('dop_menu');
+			
+			var name_pos = document.getElementsByClassName('name_pos');
+
+			var menu = document.getElementsByClassName('menu');
+			var adr = document.getElementsByClassName('adr');
+			var basc = document.getElementsByClassName('basc');
+
+			var in_menu = document.getElementsByClassName('in_menu');
+			
+			try{
+				for_logo = document.getElementById("for_logo")
+				for_logo.parentNode.removeChild(for_logo);
+
+				b_f = document.getElementById("b_f")
+				b_f.parentNode.removeChild(b_f);
+
+				anim = document.getElementById("anim")
+				anim.parentNode.removeChild(anim);
+			}catch{}
+			right_gears[0].style.left = 90+"%"
+			bask_section[0].style.width = 794+"px"
+
+			front_face[0].style.top = 287+"px"
+			dop_menu[0].style.top = 194+"px"
+
+			try{
+				basket_pos_btn1[0].style.width = 14+"%"
+				basket_pos_btn2[0].style.width = 14+"%"
+			}catch{
+
+			}
+			
+
+			header.style.height = 200+"px"
+
+			menu[0].style.fontSize = 65+"px"
+			menu[0].style.left = -3+"px"
+			menu[0].style.top = 61+"px"
+
+			adr[0].style.fontSize = 65+"px"
+			adr[0].style.left = -104+"px"
+			adr[0].style.top = 61+"px"
+
+			basc[0].style.fontSize = 65+"px"
+			basc[0].style.left = -76+"px"
+			basc[0].style.top = 61+"px"
+			
+
+			basket_block[0].style.left = -0+"%"
+			basket_block[0].style.top = 7+"px"
+			basket_block[0].style.width = 794+"px"
+
+			footer[0].style.marginTop = 14000+"px"
+			footer[0].style.height = 1000+"px"
+			for(i=0;i<food_gear.length;i++){
+				try{
+					gear_button[i].style.height = 200+"px"
+					gear_button[i].style.width = 200+"px"
+				}catch{}
+				try{
+					in_menu[i].style.width = 600+"px"
+					in_menu[i].style.height = 80+"px"
+					in_menu[i].style.fontSize = 54+"px"
+					in_menu[i].style.marginTop = 80+"px"
+				}catch{}
+				
+				name_pos[i].style.fontSize = 35+"px"
+				name_pos[i].style.height = 100+"px"
+
+				info_block[i].style.width = 100+"%"
+
+				price[i].style.left = -263+"px"
+				price[i].style.top = 23+"px"
+
+				but_box[i].style.left = 11+"px"
+				but_box[i].style.top = -49+"px"
+
+				food_inside[i].style.display = "block"
+				food_inside[i].style.left = 50+"px"
+				food_inside[i].style.height = 900+"px"
+				food_inside[i].style.width = 747+"px"
+				food_inside[i].style.marginBottom = 70+"px"
+
+				food_gear[i].style.width = 750+"px"
+				food_gear[i].style.height = 750+"px"
+
+				photo_pos[i].style.width = 500+"px"
+				photo_pos[i].style.height = 500+"px"
+				photo_pos[i].style.top = 50+"px"
+				photo_pos[i].style.left = 127+"px"
+			}
+		}
+	}
+	var gear_num_r1 = document.getElementsByClassName("gear_num_r1");
+	var gear_num_r2 = document.getElementsByClassName("gear_num_r2");
+	var gear_num_r3 = document.getElementsByClassName("gear_num_r3");
+	var gear_num_r4 = document.getElementsByClassName("gear_num_r4");
+	var gear_num_r5 = document.getElementsByClassName("gear_num_r5");
+	
+	var gear_num_l1 = document.getElementsByClassName("gear_num_l1");
+	var gear_num_l2 = document.getElementsByClassName("gear_num_l2");
+	var gear_num_l3 = document.getElementsByClassName("gear_num_l3");
+	var gear_num_l4 = document.getElementsByClassName("gear_num_l4");
+	var gear_num_l5 = document.getElementsByClassName("gear_num_l5");
+	
+	function check_scroll(scroll){
+		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+		raz = scrollTop/5	
+			for(i=0;i<gear_num_r1.length;i++){
+				gear_num_r1[i].style.rotate = -raz+"deg";
+				gear_num_r2[i].style.rotate = raz+"deg";
+				gear_num_r3[i].style.rotate = -raz+"deg";
+				gear_num_r4[i].style.rotate = raz+"deg";
+				gear_num_r5[i].style.rotate = -raz+"deg";
+
+				gear_num_l1[i].style.rotate = -raz+"deg";
+				gear_num_l2[i].style.rotate = raz+"deg";
+				gear_num_l3[i].style.rotate = -raz+"deg";
+				gear_num_l4[i].style.rotate = raz+"deg";
+				gear_num_l5[i].style.rotate = -raz+"deg";
+			}
+
+		    gear11.style.rotate = -raz+"deg";
+			gear12.style.rotate = raz+"deg";
+			gear13.style.rotate = -raz+"deg";
+			gear14.style.rotate = raz+"deg";
+			gear15.style.rotate = -raz+"deg";
+			gear16.style.rotate = raz+"deg";
+			gear17.style.rotate = -raz+"deg";
+			gear18.style.rotate = raz+"deg";
+			gear19.style.rotate = -raz+"deg";
+			gear20.style.rotate = raz+"deg";
+
+			gear21.style.rotate = -raz+"deg";
+			gear22.style.rotate = raz+"deg";
+			gear23.style.rotate = -raz+"deg";
+			gear24.style.rotate = raz+"deg";
+			gear25.style.rotate = -raz+"deg";
+			gear26.style.rotate = raz+"deg";
+			gear27.style.rotate = -raz+"deg";
+			gear28.style.rotate = raz+"deg";
+			gear29.style.rotate = -raz+"deg";
+			gear30.style.rotate = raz+"deg";
+
+			gear31.style.rotate = -raz+"deg";
+			gear32.style.rotate = raz+"deg";
+			gear33.style.rotate = -raz+"deg";
+			gear34.style.rotate = raz+"deg";
+			gear35.style.rotate = -raz+"deg";
+			gear36.style.rotate = raz+"deg";
+			gear37.style.rotate = -raz+"deg";
+			gear38.style.rotate = raz+"deg";
+			gear39.style.rotate = -raz+"deg";
+			gear40.style.rotate = raz+"deg";
+	}
+
+	function move3(info){
+		let div = box.createElement('div');
+		div.className = "alert";
+		div.innerHTML = "<strong>Всем привет!</strong> Вы прочитали важное сообщение.";
+		document.body.append(div);
+	}
+
+	function basket_f(){
+		if (place_com == "right"){
+			place_com = "left"
+			if (screenWidth < 1331){
+				bas_place = 19;
+			}else{
+				bas_place = 71;
+			}
+		}else{
+			place_com = "right"
+			bas_place = 100;
+		}
+		console.log(place_com)
+	}
+	function menu_f(){
+		if (place_com_menu == "right"){
+			place_com_menu = "left"
+			if (screenWidth < 1331){
+				menu_place = -100;
+			}else{
+				menu_place = -60;
+			}
+		}else{
+			place_com_menu = "right"
+			menu_place = 0;
+		}
+		console.log(place_com_menu)
+	}
+	function contact(){
+		if (place_com_adr == "right"){
+			place_com_adr = "left"
+			adr_place = 0;
+		}else{
+			place_com_adr = "right"
+			adr_place = 50;
+		}
+		console.log(place_com_adr)
+	}
+
+	function in_list(info,list){
+		return list.indexOf( info ) != -1 
+	}
+	function not_in_list(info,list){
+		if (list.indexOf( info ) != -1){
+			return false
+		}else{
+			return true
+		}
+	}
+
+	function change_num(name,polar){
+		try{
+			num = basket[name];
+			num.length+1;
+		}catch{
+			num = 0;
+		}
+		if (polar == '+'){
+			num+=1;
+		}else{
+			num-=1;
+		}
+		if(num<1){
+			num = 0;
+		}
+
+		basket[name]= num;
+		len = Object.keys(basket).length-1
+		str = JSON.stringify(basket);
+
+		var bas_info = document.getElementsByClassName('basket_info');
+		
+		if(not_in_list(name,basket_arr)){
+			var div = document.createElement('div');
+			div.className = "basket_pos"; 
+			div.id = "id_bas_pos_"+name; 
+			bas_info[0].appendChild(div);
+
+			basket_arr[basket_arr.length]=name;
+			var bas_pos = document.getElementsByClassName('basket_pos');
+
+			var div = document.createElement('div');
+			div.className = "basket_pos_name";
+			bas_pos[len].appendChild(div);
+
+			var bas_pos_name = document.getElementsByClassName('basket_pos_name');
+			var h3 = document.createElement('h3');
+			h3.className = "h_class";
+			bas_pos_name[len].appendChild(h3);
+			
+			var h_class = document.getElementsByClassName('h_class');
+			name_in = name.replace(/_/gi," ")
+			console.log(h_class)
+			h_class[len].innerHTML = name_in;
+			//name+++++++++++++++++++++++++++++++
+			var div = document.createElement('div');
+			div.className = "basket_pos_price";
+			bas_pos[len].appendChild(div);
+
+			var bas_pos_name = document.getElementsByClassName('basket_pos_price');
+			var h3 = document.createElement('h3');
+			h3.className = "h_price";
+			h3.id = "id_price_bas_"+name;
+			bas_pos_name[len].appendChild(h3);
+
+			//var h_price = document.getElementsByClassName('h_price');
+			
+			//price+++++++++++++++++++++++++++++++
+			var div = document.createElement('div');
+			div.className = "basket_pos_buttons";
+			bas_pos[len].appendChild(div);
+			var basket_pos_buttons = document.getElementsByClassName('basket_pos_buttons');
+			ins = '<input class="basket_pos_btn1" name="someName" type="button" value="+" onclick="change_num(\''+name+'\',\'+\')">';
+			ins2 = '<div class="basket_pos_how" id="id_how_'+name+'"><h3>'+basket[name]+'</h3></div>'
+			ins3 = '<input class="basket_pos_btn2" name="someName" type="button" value="-" onclick="change_num(\''+name+'\',\'-\')">';
+			basket_pos_buttons[len].innerHTML = ins+ins2+ins3;
+		}
+		
+		var id_pos = document.getElementById('id_price_'+name);
+		let price_in = id_pos.innerText*basket[name];
+		var id_pos_bas = document.getElementById('id_price_bas_'+name);
+		id_pos_bas.innerHTML = price_in;	
+		var id_pos_how = document.getElementById('id_how_'+name);
+		id_pos_how.innerHTML = basket[name];	
+		
+		var bas_pos_price = document.getElementsByClassName('basket_pos_price');
+		sal = 0;
+		for(i=0;i<bas_pos_price.length;i++)
+			sal = sal+Number(bas_pos_price[i].innerText)
+		var bas_pos_price = document.getElementsByClassName('saldo');
+		bas_pos_price[0].innerHTML = "<h3>"+String(sal)+" Сум</h3>" ;	
+
+		//button_box+++++++++++++++++++++++++++++++
+
+		var box = document.getElementsByClassName('id_'+name);
+		for(i=0;i<box.length;i++){
+			box[i].innerHTML = num;
+		}
+		if(num<1){
+			str = JSON.stringify(basket);
+			console.log(str)
+			delete basket[name]
+			str = JSON.stringify(basket);
+			console.log(str)
+			position = document.getElementById("id_bas_pos_"+name)
+			position.parentNode.removeChild(position);
+			index = basket_arr.indexOf(name);
+			if (index > -1) {
+			  basket_arr.splice(index, 1);
+			}
+		}
+	}
+
+
+	function move1(info){
+		place = info
+		pos = old;
+		new_place = place;
+
+		if (place_com_menu == "right"){
+			if (screenWidth < 1331){
+				menu_place = -100;
+			}
+		}else{
+			place_com_menu = "right"
+			menu_place = 0;
+		}
+		
+	}
+	function move(t){
+		o = pos==new_place;
+		if (old>new_place){
+			v = pos<=new_place;
+			crement = pos-=1;
+			if(pos-new_place>300){
+				pos = pos - 300;
+		}
+		}else{
+			v = pos>=new_place;
+			crement = pos+=1;
+			if(new_place-pos>300){
+				pos = pos + 300;
+				}
+		}
+			
+		if(o){
+			old = pos+1
+		}
+		if(v){
+			clearInterval(t);
+			return;
+		}
+		else{
+			crement;
+			box.style.left = new_place+"%";
+
+			gear1.style.rotate = -pos*1+"deg";
+			gear2.style.rotate = pos*1+"deg";
+			gear3.style.rotate = -pos*1+"deg";
+			gear4.style.rotate = pos*1+"deg";
+			gear5.style.rotate = -pos*1+"deg";
+			gear6.style.rotate = pos*1+"deg";
+			gear7.style.rotate = -pos*1+"deg";
+			gear8.style.rotate = pos*1+"deg";
+			gear9.style.rotate = -pos*1+"deg";
+			gear10.style.rotate = pos*1+"deg";
+		}
+	}
+	function move_bas(b){
+		if (place_com == "left"){
+			bas_crem = bas_place+=4;
+			v = bas_place>105;
+		}else if(place_com == "right"){
+			bas_crem = bas_place-=4;
+			if (screenWidth < 1331){
+				v = bas_place<19;
+			}else{
+				v = bas_place<71;
+			}
+		}
+		if(v){
+			clearInterval(b);
+			return;
+		}else{
+			bas_crem;
+			basket_box.style.left = bas_place+"%";
+		}
+	}
+	function move_menu(r){
+		if (place_com_menu == "left"){
+			menu_crem = menu_place+=5;
+			v = menu_place>0;
+		}else if(place_com_menu == "right"){
+			menu_crem = menu_place-=5;
+			if (screenWidth < 1331){
+				v = menu_place<-100;
+			}else{
+				v = menu_place<-100;
+			}
+		}
+		if(v){
+			clearInterval(r);
+		}else{
+			menu_crem;
+			menu_box.style.left = menu_place*2+"%";
+		}
+	}
+	function move_adr(z){
+		if (place_com_adr == "left"){
+			adr_crem = adr_place+=1;
+			v = adr_place>50;
+		}else if(place_com_adr == "right"){
+			adr_crem = adr_place-=1;
+			v = adr_place<0;
+		}
+		if(v){
+			clearInterval(z);
+		}else{
+			adr_crem;
+			adr.style.left = adr_place*3+"%";
+		}
+	}
+	function rem_send(){
+		send_box = document.getElementById("send_box")
+		send = document.getElementById("send")
+		send.parentNode.removeChild(send);
+		str = JSON.stringify(basket);
+		text = '<form action="form/" method="post">'+
+				    '{% csrf_token %}'+
+				    '<input id="your_name" class="g_button send_box" type="text" name="number" placeholder="+9989" required="true">'+
+				    '<input id="your_name" type="hidden" name="basket" value='+str+'>'+
+				    '<input type="submit" class="g_button send_box" value="OK">'+
+				'</form>'
+		send_box.innerHTML = text;
+	}
+
+
+</script>
+	{% endblock %}

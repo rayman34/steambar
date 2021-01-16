@@ -1,0 +1,1618 @@
+.hello_box{
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+}
+#hello_world1{
+	width: 50%;
+	height: 100%;
+	left: 0%;
+	background: black;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+}
+#hello_world2{
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	background: black;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+}
+.logo_hello1{
+	left: 50%;
+}
+.logo_hello2{
+	left: -50%;
+}
+.logo_hello{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	background: url(/static/homepage/image/logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	background: black;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	position: relative;
+	width: 146px;
+	height: 100%;
+	display: inline-block;
+	background: url(/static/homepage/image/logo.png);
+	background-size: 100%;
+}
+
+.center_head{
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	top:-69px;
+	left: -11%;
+}
+.for_logo{
+	display: inline-block;
+	position: relative;
+	width: 140px;
+	height: 100px;
+	top: 0px;
+	color: white;
+	left: 0px;
+}
+.anim{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 100px;
+	top: 0px;
+	color: white;
+	left: 0px;
+}
+.info_block{
+	display: inline-block;
+	width: 368px;
+	height: 191px;
+}
+.basket{
+	display: inline-block;
+	position: relative;
+	width: 16%;
+	height: 100%;
+	top:-188%;
+	left: 83%;
+}
+.basket_case{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	background: black;
+	display: inline-block;
+	top:31px;
+	left:-19%;
+	font-size: 32px;
+	border-radius: 0px;
+	transition: transform 1s ease-in-out;
+}
+.b_case{
+	font-size: 29px;
+	border:1px solid black;
+}
+.bask_section{
+    width: 389px;
+	height: 200%;
+	top: 0px;
+	position: absolute;
+	left: 100%;
+}
+.basket_block{
+	width: 389px;
+	left: 0%;
+	top: 0px;
+	position: relative;
+	display: inline-block;
+	background: black;
+	overflow: hidden;
+	border-radius: 0px 0px 27px 27px;
+}
+.basket_info{
+	top: -63px;
+	left: 21%;
+	width: 78%;
+	height: 88%;
+	position: relative;
+	display: inline-block;
+}
+.basket_pos{
+	position: relative;
+	display: inline-block;
+	top: 0%;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 5px;
+
+}
+.h_class{
+	font-size: 15px;
+}
+.h_price{
+	font-size: 15px;
+}
+.basket_pos_name{
+	position: relative;
+	display: inline-block;
+	top: 0%;
+	border-radius:25px;
+	background: white;
+	width: 100%;
+	height: 44%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2px;
+}
+.saldo{
+	position: relative;
+	display: inline-block;
+	top: 0%;
+	border-radius:25px;
+	background: white;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2px;
+}
+.basket_pos_price{
+	position: relative;
+	display: inline-block;
+	top: -1%;
+	background: white;
+	border-radius: 25px;
+	text-align: center;
+	height: 52%;
+	width: 30%;
+}
+.basket_pos_buttons{
+	position: relative;
+	display: inline-block;
+	top: 2%;
+	width: 66%;
+	height: 55%;
+	left:10%;
+}
+.basket_pos_btn1{
+	position: relative;
+	display: inline-block;
+	top: 0%;
+	text-align: center;
+	width: 58px;
+	font-size: 15px;
+	border-radius:50%;
+	background: white;
+	height: 100%;
+}
+.basket_pos_how{
+	position: relative;
+	display: inline-block;
+	top: 0%;
+	color:white;
+	text-align: center;
+	width: 28%;
+	height: 100%;
+}
+.basket_pos_btn2{
+	position: relative;
+	display: inline-block;
+	top: 0%;
+	font-size: 15px;
+	border-radius:50%;
+	text-align: center;
+	width: 58px;
+	background: white;
+	height: 100%;
+}
+
+
+.numb{
+	left: 115px;
+	top: -3px;
+	position: relative;
+	width: 231px;
+	height: 100px;
+	background-size: 100%;
+	border-radius:50%;
+	display: inline-block;
+}
+.num{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	background: black;
+	display: inline-block;
+	top:34px;
+	left:-32px;
+	font-size: 32px;
+	border-radius: 0px;
+}
+.gear_button{
+	left: 0px;
+	top: 0px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/1w.png);
+	background-size: 100%;
+	border-radius:50%;
+	display: inline-block;
+	margin-right: 20px;
+	transition: transform 1s ease-in-out;
+}
+.gear_anim{
+	position: relative;
+	width: 100px;
+	height: 100%;
+	border-radius:50%;
+	display: inline-block;
+	transition: transform 15s ease-in-out;
+}
+.gear_button2{
+	top: 50px;
+	background: url(/static/homepage/image/12w.png);
+	background-size: 100%;
+}
+.gear_button3{
+	left: -37px;
+	top: 0px;
+	background: url(/static/homepage/image/13w.png);
+	background-size: 100%;
+}
+.gear_button4{
+	left: 152px;
+	top: -72px;
+	background: url(/static/homepage/image/15w.png);
+	background-size: 100%;
+}
+.gear_button5{
+	left: 89px;
+	top: -144px;
+	background: url(/static/homepage/image/16w.png);
+	background-size: 100%;
+}
+.gear_button6{
+	position: absolute;
+	left: 1100px;
+	top: 50px;
+	background: url(/static/homepage/image/22w.png);
+	background-size: 100%;
+}
+.adres{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	background: black;
+	display: inline-block;
+	top:31px;
+	left:-40px;
+	font-size: 32px;
+	background: white
+	border-radius: 0px;
+	width: 186px;
+	transition: transform 1s ease-in-out;
+}
+
+.soc_gear{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 80px;
+	height: 80px;
+	background: url(/static/homepage/image/14w.png);
+	background-size: 100%;
+	display: inline-block;
+	margin-left: 12px;
+	transition: transform 1s ease-in-out;
+}
+.soc_tg{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+	background: url(/static/homepage/image/tgb.png);
+	background-size: 100%;
+	display: block;
+	transition: transform 1s ease-in-out;
+}
+.soc_fb{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+	background: url(/static/homepage/image/fbb.png);
+	background-size: 100%;
+	display: block;
+	transition: transform 1s ease-in-out;
+}
+.soc_inst{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+	background: url(/static/homepage/image/instb.png);
+	background-size: 100%;
+	display: block;
+	transition: transform 1s ease-in-out;
+}
+.menu{
+	left: -3px;	
+}
+.menu_box_id{
+	left: -100%;
+	width: 900px;
+}
+.menu_block{
+	width: 100%;
+}
+.in_menu{
+	font-size: 54px;
+	height: 192px;
+	border: 1px solid red;
+	width: 600px;
+}
+
+
+header:hover .gear_button2,
+header:hover .gear_button4,
+header:hover .gear_button6{
+	transform: rotate(3600deg);
+	transition: 15s;
+}
+header:hover .gear_button3,
+header:hover .gear_button5{
+	transform: rotate(-3600deg);
+	transition: 15s;
+}
+.basket_block:hover .ch_bas2{
+	transform: translateX(20%);
+	transition: 15s;
+}
+.basket_block:hover .ch_bas{
+	transform: translateX(-20%);
+	transition: 15s;
+}
+.basket_block:hover .gear1{
+	transform: rotate(-1800deg);
+	transition: 15s;
+}
+.g_button:hover{
+	transition: 0.7s;
+	color: black;
+	background: white;
+	transform: scale(1.1);
+}
+
+.food_inside:hover .food_gear{
+	transform: rotate(45deg);
+	transition: 1s;
+}
+.food_inside:hover .photo_pos{
+	transition: 1s;
+	transform: scale(1.5) rotate(-45deg);
+}
+
+.dop_menu:hover .chain{
+	transform: translateX(20%);
+	transition: 30s;
+}
+.dop_menu:hover .chain2{
+	transform: translateX(-20%);
+	transition: 30s;
+}
+
+.gear_button:hover{
+	transform: rotate(45deg);
+	transition: 1s;
+}
+
+.gear1_link{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	background: black;
+	display: inline-block;
+	top:31px;
+	left:0px;
+	font-size: 32px;
+	border-radius: 0px;
+	transition: transform 1s ease-in-out;
+}
+.gear1_link_back{
+	position: relative;
+	text-decoration: none;
+	background: black;
+	display: inline-block;
+	top:31px;
+	left:-32px;
+	font-size: 32px;
+	border-radius: 0px;
+}
+.gear1_link:hover{
+	transform: rotate(-45deg);
+	transition: 1s;
+}
+.soc_gear:hover{
+	transform: rotate(-45deg);
+	transition: 1s;
+}
+.soc_gear:hover .soc_tg{
+	transition: 1s;
+	transform: scale(1.3) rotate(45deg);
+}
+.soc_gear:hover .soc_fb{
+	transition: 1s;
+	transform: scale(1.3) rotate(45deg);
+}.soc_gear:hover .soc_inst{
+	transition: 1s;
+	transform: scale(1.3) rotate(45deg);
+}
+.adres:hover{
+	transform: rotate(-45deg);
+	transition: 1s;
+}
+.basket_case:hover{
+	transform: rotate(-45deg);
+	transition: 1s;
+}
+#contacts:hover .gear_contact1,
+#contacts:hover .gear_contact4{
+	transform: rotate(1800deg);
+	transition: 15s;
+}
+#contacts:hover .gear_contact2,
+#contacts:hover .gear_contact3{
+	transform: rotate(-1800deg);
+	transition: 15s;
+}
+
+#contacts:hover .ch3,
+#contacts:hover .ch5{
+	transform: translateX(-60%);
+	transition: 15s;
+}
+#contacts:hover .ch1,
+#contacts:hover .ch2,
+#contacts:hover .ch4{
+	transform: translateX(60%);
+	transition: 15s;
+}
+.dop_menu{
+	top: 94px;
+	left: 0%;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 110px;
+	overflow: hidden;
+}
+.fly{
+	position: absolute;
+	left: -10px;
+	top: 70%;
+	width: 300px;
+	height: 200px;
+	background: url(/static/homepage/image/fly.png);
+	background-size: 100%;
+}
+.helm_menu{
+	position: absolute;
+	left: -22px;
+	top: 4%;
+	width: 600px;
+	height: 400px;
+	background: url(/static/homepage/image/fly.png);
+	background-size: 100%;
+}
+.steam_border{
+    position: relative;
+    left: 0%;
+    top: -2%;
+    width: 800px;
+    height: 224px;
+    background: url(/static/homepage/image/border.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+	margin-right: auto;
+}
+.chain{
+	position: relative;
+	display: inline-block;
+	width: 1000%;
+	height: 50%;
+	top: 13%;
+	left: -900%;
+	background: url(/static/homepage/image/chainb.png);
+	background-repeat: repeat-x;
+	background-size: 136px;
+	transition: transform 30s ease-in-out;
+}
+.ch_bas{
+	top: 81%;
+	left: -1867px;
+	rotate:90deg;
+	background: url(/static/homepage/image/chainw.png);
+	background-repeat: repeat-x;
+	background-size: 136px;
+	transition: transform 15s ease-in-out;
+	width: 3885px;
+	height: 21px;
+}
+.adr{
+	top: 30px;
+	left: -40px;
+}
+
+.chain2{
+	position: relative;
+	display: inline-block;
+	width: 1000%;
+	height: 50%;
+	top: 0%;
+	left: 0%;
+	background: url(/static/homepage/image/chainb.png);
+	background-repeat: repeat-x;
+	background-size: 136px;
+	transition: transform 30s ease-in-out;
+}
+.ch_bas2{
+	top: -62px;
+	left: -1067px;
+	rotate:0deg;
+	background: url(/static/homepage/image/chainw.png);
+	background-repeat: repeat-x;
+	background-size: 136px;
+	transition: transform 15s ease-in-out;
+	width: 3885px;
+	height: 21px;
+}
+.b_f{
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+   // left: -30%;
+}
+#contacts{
+	width: 100%;
+	height: 90px;
+	background: black;
+	position: absolute;
+	top: 7%;
+	left: 100%;
+	overflow: hidden;
+}
+.phone_block{
+	background: url(/static/homepage/image/phonew.png);
+	background-size: 100%;
+	top: -5%;
+	left: 1%;
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+.cont_block{
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 10px;
+    top: -8px;
+    position: relative;
+    color: white;
+}
+.cont_adr{
+	font-size: 15px;
+	display: inline-block;
+	top: -35px;
+	left: -21px;
+}
+.cont_block2{
+	left: 17%
+}
+
+.ch_cont{
+	background: url(/static/homepage/image/chainw.png);
+	background-size: 10%;
+	background-repeat: repeat-x;
+	rotate:45deg;
+	top: 134px;
+	left: 0%;
+	position: absolute;
+	width: 1631px;
+	height: 24px;
+	transition: transform 15s ease-in-out;
+}
+.ch1{
+	left: -626px;
+	rotate: 45deg;
+	top: -486px;
+	transition: transform 15s ease-in-out;
+}
+.ch2{
+	left: 516px;
+	rotate: 168deg;
+	top: -79px;
+	transition: transform 15s ease-in-out;
+}
+.ch3{
+	left: -600px;
+	rotate: 164deg;
+	top: 153%;
+	transition: transform 15s ease-in-out;
+}
+.ch4{
+    left: -537px;
+    rotate: 25deg;
+    transition: transform 15s ease-in-out;
+    top: -103px;
+}
+.ch5{
+	left: 658px;
+	rotate: 25deg;
+	transition: transform 15s ease-in-out;
+}
+.gear_contact{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	width: 100px;
+	height: 100px;
+	
+}
+.gear_contact1{
+	top: -45px;
+	left: 53px;	
+	background: url(/static/homepage/image/17w.png);
+	background-size: 100%;
+	transition: transform 15s ease-in-out;
+}
+.gear_contact2{
+	top: -32px;
+	left: 21px;
+	background: url(/static/homepage/image/10w.png);
+	background-size: 100%;
+	transition: transform 15s ease-in-out;
+}
+.gear_contact3{
+	top: -156px;
+	left: 144px;
+	background: url(/static/homepage/image/6w.png);
+	background-size: 100%;
+	transition: transform 15s ease-in-out;
+}
+.gear_contact4{
+	top: -274px;
+	left: 241px;
+	background: url(/static/homepage/image/4w.png);
+	background-size: 100%;
+	transition: transform 15s ease-in-out;
+}
+.dop{
+	position: relative;
+	display: block;
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.g_button{
+	position: relative;
+	display: inline-block;
+	width: 195px;
+	height: 40px;
+	top: 10px;
+	background: black;
+	color: white;
+	margin-left: 21px;
+	border:1px solid black;
+	border-radius: 25px;
+	font-size: 18px;
+	transition: transform 1s ease-in-out;
+}
+.dop2{
+	left: 6%;
+	top: 5%;
+}
+.dop_link{
+	width: 150%;
+	height: 24%;
+	font-size: 84%;
+	text-align: center;
+	left: -25%;
+	top: 36%;
+
+}
+.posit{
+	display: inline-block;
+	top: 20%;
+	left: 0%;
+	margin-top: 0%;
+	margin-left:0%; 
+
+}
+.front_face{
+	top: 187px;
+	left: 0%;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	//border:1px solid blue;
+	overflow: hidden;
+}
+.left_gears{
+	top: 0px;
+	position: absolute;
+	left: 0px;
+	width: 104px;
+	height: 160%;
+	overflow: hidden;
+}
+.g_div{
+	margin-bottom: -20px;
+}
+.right_gears{
+	position: absolute;
+	top: -1px;
+	float: right;
+	left: 93%;
+	height: 160%;
+	overflow: hidden;
+}
+.logo_big{
+	position: absolute;
+	top: -0px;
+	left: 28%;
+	width: 667px;
+	height: 667px;
+	display: inline-block;
+	background: url(/static/homepage/image/logob.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.bird{
+	position: absolute;
+	top: 1480px;
+	left: 479px;
+	width: 954px;
+	height: 867px;
+	display: inline-block;
+	background: url(/static/homepage/image/bird.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.right_bor{
+	top: 878px;
+	left: 0px;
+	background: url(/static/homepage/image/right_bor.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+.helm{
+	top: 2578px;
+	left: 0px;
+	background: url(/static/homepage/image/helm.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.horse{
+	top: 3354px;
+	left: 150px;
+	background: url(/static/homepage/image/horseman.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.pero{
+	top: 4354px;
+	left: 398px;
+	width: 600px;
+	height: 1300px;
+	background: url(/static/homepage/image/pero.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.ball{
+	top: 5700px;
+	left: 0px;
+	background: url(/static/homepage/image/ball.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+.man{
+	top: 6700px;
+	left: 300px;
+	background: url(/static/homepage/image/man.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+.cent_gears{
+	top: 8000px;
+	left: 229px;
+	background: url(/static/homepage/image/cent_gears.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	height: 1500px;
+}
+
+.heart{
+	top: 9600px;
+	left: 0px;
+	background: url(/static/homepage/image/heart.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1500px;
+}
+.helm2{
+	top: 10500px;
+	left: 309px;
+	background: url(/static/homepage/image/helm.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1500px;
+}
+.gearsi{
+	top: 11500px;
+	left: 0px;
+	background: url(/static/homepage/image/gearsi.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1500px;
+	width: 1040px
+}
+.fly2{
+	top: 12500px;
+	left: -405px;
+	background: url(/static/homepage/image/fly.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 2500px;
+	width: 1000px;
+}
+
+
+.logo_foot{
+	position: relative;
+	width: 300px;
+	height: 193px;
+	display: block;
+	background: url(/static/homepage/image/logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+}
+.gear1{
+	position: relative;
+	top: -26px;
+	left: -32px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/12w.png);
+	background-size: 100%;
+	transition: transform 15s ease-in-out;
+}
+.socials{
+	width: 300px;
+	height: 94px;
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.dop_foot{
+    width: 30%;
+    height: 50px;
+    position: relative;
+    margin-left: 8px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.dop_foot_cont{
+	width: 500px;
+	height: 94px;
+	position: relative;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#gear1{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/12.png);
+	background-size: 100%;
+}
+#gear2{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/10.png);
+	background-size: 100%;
+}
+#gear3{
+	position: relative;
+	top: -20px;
+	left: -0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/9.png);
+	background-size: 100%;
+}
+#gear4{
+	position: relative;
+	top: -40px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/8.png);
+	background-size: 100%;
+}
+#gear5{
+	position: relative;
+	top: -34px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/7.png);
+	background-size: 100%;
+}
+#gear6{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/4.png);
+	background-size: 100%;
+}
+#gear7{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/3.png);
+	background-size: 100%;
+}
+#gear8{
+	position: relative;
+	top: -21px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/16.png);
+	background-size: 100%;
+}
+#gear9{
+	position: relative;
+	top: -41px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/1.png);
+	background-size: 100%;
+}
+#gear10{
+	position: relative;
+	top: -47px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/14.png);
+	background-size: 100%;
+}
+
+#gear11{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/12.png);
+	background-size: 100%;
+}
+#gear12{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/10.png);
+	background-size: 100%;
+}
+#gear13{
+	position: relative;
+	top: -20px;
+	left: -0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/9.png);
+	background-size: 100%;
+}
+#gear14{
+	position: relative;
+	top: -40px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/8.png);
+	background-size: 100%;
+}
+#gear15{
+	position: relative;
+	top: -34px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/7.png);
+	background-size: 100%;
+}
+#gear16{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/4.png);
+	background-size: 100%;
+}
+#gear17{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/3.png);
+	background-size: 100%;
+}
+#gear18{
+	position: relative;
+	top: -21px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/16.png);
+	background-size: 100%;
+}
+#gear19{
+	position: relative;
+	top: -41px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/1.png);
+	background-size: 100%;
+}
+#gear20{
+	position: relative;
+	top: -47px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/14.png);
+	background-size: 100%;
+}
+
+#gear21{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/12.png);
+	background-size: 100%;
+}
+#gear22{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/10.png);
+	background-size: 100%;
+}
+#gear23{
+	position: relative;
+	top: -20px;
+	left: -0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/9.png);
+	background-size: 100%;
+}
+#gear24{
+	position: relative;
+	top: -40px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/8.png);
+	background-size: 100%;
+}
+#gear25{
+	position: relative;
+	top: -34px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/7.png);
+	background-size: 100%;
+}
+#gear26{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/4.png);
+	background-size: 100%;
+}
+#gear27{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/3.png);
+	background-size: 100%;
+}
+#gear28{
+	position: relative;
+	top: -21px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/16.png);
+	background-size: 100%;
+}
+#gear29{
+	position: relative;
+	top: -41px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/1.png);
+	background-size: 100%;
+}
+#gear30{
+	position: relative;
+	top: -47px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/14.png);
+	background-size: 100%;
+}
+#gear31{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/12.png);
+	background-size: 100%;
+}
+#gear32{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/10.png);
+	background-size: 100%;
+}
+#gear33{
+	position: relative;
+	top: -20px;
+	left: -0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/9.png);
+	background-size: 100%;
+}
+#gear34{
+	position: relative;
+	top: -40px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/8.png);
+	background-size: 100%;
+}
+#gear35{
+	position: relative;
+	top: -34px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/7.png);
+	background-size: 100%;
+}
+#gear36{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/4.png);
+	background-size: 100%;
+}
+#gear37{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/3.png);
+	background-size: 100%;
+}
+#gear38{
+	position: relative;
+	top: -21px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/16.png);
+	background-size: 100%;
+}
+#gear39{
+	position: relative;
+	top: -41px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/1.png);
+	background-size: 100%;
+}
+#gear40{
+	position: relative;
+	top: -47px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/14.png);
+	background-size: 100%;
+}
+
+.gear_num_r1{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/4.png);
+	background-size: 100%;
+}
+.gear_num_r2{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/3.png);
+	background-size: 100%;
+}
+.gear_num_r3{
+	position: relative;
+	top: -21px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/16.png);
+	background-size: 100%;
+}
+.gear_num_r4{
+	position: relative;
+	top: -41px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/1.png);
+	background-size: 100%;
+}
+.gear_num_r5{
+	position: relative;
+	top: -47px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/14.png);
+	background-size: 100%;
+}
+.gear_num_l1{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/12.png);
+	background-size: 100%;
+}
+.gear_num_l2{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/10.png);
+	background-size: 100%;
+}
+.gear_num_l3{
+	position: relative;
+	top: -20px;
+	left: -0px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/9.png);
+	background-size: 100%;
+}
+.gear_num_l4{
+	position: relative;
+	top: -40px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/8.png);
+	background-size: 100%;
+}
+.gear_num_l5{
+	position: relative;
+	top: -34px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(/static/homepage/image/7.png);
+	background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.send_box{
+	left: 60px;
+	top: -6px;
+	margin-top: 7px;
+}
+#box{
+	top: 8px;
+	left:0%;
+	width: 1100%;
+	height: 100%;
+	position: relative;
+	//border:1px solid green;
+}
+.cont1{
+	top: 0%;
+	left: 0px;
+	width: 8%;
+	overflow: hidden;
+	background: black;
+	display: inline-block;
+	border-radius: 25px;
+	vertical-align:top;
+	position: relative;
+}
+.dotted_border{
+	width: 96%;
+	position: relative;
+	margin:5px 5px 5px 5px ;
+	border:12px double white;
+	border-radius: 25px;
+}
+.cont2{
+	overflow: hidden;
+	top: 0%;
+	left: 0%;
+	width: 1%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+.food_block{
+	height: 100%;
+	display: inline;
+	position: relative;
+}
+.food_inside{
+	width: 560px;
+	height: 191px;
+	display: inline-block;
+	position: relative;
+}
+.food_gear{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	transition: transform 1s ease-in-out;
+	background: url(/static/homepage/image/25w.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.photo_pos{
+	position: relative;
+	display: inline-block;
+	left: 34px;
+	top: -43px;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	transition: transform 1s ease-in-out;
+	margin-top: 77px
+}
+
+.name_pos{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	top: 0%;
+	left: 0px;
+	font-size: 20px;
+	float: right;
+	color: black;
+	border-radius: 36px;
+	text-align: center;
+	height: 50px;
+	background: white;
+	line-height: 2px;
+
+}
+.foot{
+	display: block;
+}
+.price{
+	position: relative;
+	display: inline-block;
+	width: 60%;
+	top: 2px;
+	float: right;
+	left: 0%;
+	font-size: 20px;
+	color: black;
+	border-radius: 36px;
+	text-align: center;
+	height: 50px;
+	background: white;
+	line-height: 2px;
+	
+}
+.but_box{
+	position: relative;
+	width: 384px;
+	height: 70px;
+	float: right;
+	top: 0px;
+	left: 0px;
+	
+}
+.g_plus{
+	color: black;
+	left: 28%;
+	width:19%;
+	background: white;
+	border-radius: 50%;
+	height: 100%;
+}
+.g_minus{
+	color: black;
+	left: 28%;
+	width:19%;
+	background: white;
+	border-radius: 50%;
+	height: 100%;
+}
+
+.chain3{
+	top: 15%;
+	left: 0px;
+	width: 100%;
+	height: 49px;
+	background: url(/static/homepage/image/chainb.png);
+	background-repeat: repeat-x;
+	background-size: 100%;
+	display: inline-block;
+	position: relative;
+}
+.ch3_top{
+	top: 64%;
+}
+
+.cont3{
+	top: -7%;
+	left: 0%;
+	width: 8%;
+	display: inline-block;
+	background: black;
+	border-radius: 25px;
+	position: relative;
+	vertical-align:top;
+}
+.cont4{
+	vertical-align:top;
+	top: -7%;
+	left: 0%;
+}
+
+
+.body{
+	top: 665px;
+	left: 0%;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	border:1px solid red;
+	background: black
+}
+footer{
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	background: black;
+    margin-top: 2200px;
+    left: -1px;
+}
+
+.alert {
+	width:15%;
+	height:50%;
+	color:white;
+	background:black;
+	left:0%;
+	top:0%;
+	display:inline-block;
+	text-align:center;
+	position:relative;
+}
+.info_block{
+	display: inline-block;
+}
